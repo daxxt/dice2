@@ -1,0 +1,44 @@
+{
+ "Account": { "Username": "ferdiyantoro",
+              "Password": "madukoro"
+},
+
+ "Interface":{ "Base Bet":"0.00002",
+               "Max Bet":"off",
+               "Chance":"95",
+               "Random":{"Auto": "off",
+                         "Min" : "84",
+                         "Max" : "84"
+                        },
+
+               "Cl_Seed":{"Auto"       :"off",
+                          "Every_Lose" : "1"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "off",
+                      "On Lose": "4",
+                      "On Win" : "4"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "0.5",
+               "After Lose" : "8.5"
+             },
+
+ "Reset"    :{ "If_Win"   : "3",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "50000000",
+              "If_Lose"  : "0",
+              "If_Prof"  : "0.00001"
+             },
+
+ "Withdraw" :{"Auto"   : "off",
+              "Initial": "0",
+              "Trigger": "50000.00000",
+              "Wallet" : "DThEB7UBzCmG1DgoDZiPKQKH2xzoyJDuCJ"
+             }
+}
